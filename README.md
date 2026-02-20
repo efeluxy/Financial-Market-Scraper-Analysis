@@ -1,30 +1,30 @@
 # Top Investment Opportunities: Stock Market Web Scraper
-Este proyecto implementa una herramienta avanzada de ingeniería de datos diseñada para identificar las 10 mejores oportunidades de inversión en el mercado de valores mediante técnicas de Web Scraping y filtrado financiero dinámico.
+This project implements an advanced data engineering tool designed to identify the top 10 investment opportunities in the stock market using Web Scraping and dynamic financial filtering.
 
 ### -- Project Overview --
-- Automatización de la extracción de datos financieros de casi 2,000 empresas con alto rendimiento en los últimos 3 años.
-- Desarrollo de un motor de búsqueda que navega por perfiles corporativos para extraer métricas clave de rentabilidad.
-- Implementación de un algoritmo de filtrado para seleccionar activos financieros basándose en criterios de estabilidad y crecimiento.
+- Automated extraction of financial data from nearly 2,000 top-performing companies over the last 3 years.
+- Development of a search engine that navigates corporate profiles to extract key profitability metrics.
+- Implementation of a filtering algorithm to select financial assets based on stability and growth criteria.
 
 ### -- Key Objectives --
-- Desarrollar un scraper robusto capaz de manejar navegación dinámica y elementos asíncronos.
-- Extraer indicadores financieros críticos: EPS (Earnings Per Share), PER (Price-to-Earnings Ratio), dividendos y año de fundación.
-- Automatizar la generación de un ranking de inversión (Top 10) actualizado para el año 2024.
+- Develop a robust scraper capable of handling dynamic navigation and asynchronous web elements.
+- Extract critical financial indicators: EPS (Earnings Per Share), PER (Price-to-Earnings Ratio), dividends, and foundation year.
+- Automate the generation of an updated "Top 10" investment ranking for 2024.
 
 ### -- Tech Stack --
-- Language: Python.
-- Web Automation: Selenium WebDriver (Chrome Headless mode).
-- Data Manipulation: Pandas.
-- Network & API: Requests y urllib.
-- Environment: Jupyter Notebook / Google Colab.
+- Language: Python
+- Web Automation: Selenium WebDriver (Chrome Headless mode)
+- Data Manipulation: Pandas
+- Network & API: Requests & Urllib
+- Environment: Jupyter Notebook / Google Colab
 
 ### -- Methodology --
-- Data Acquisition: Uso de Selenium para extraer una lista inicial de 481 empresas con mejor rendimiento histórico desde fuentes especializadas.
-- Automated Profiling: Creación de funciones modulares (get_EPS, get_PER, get_dividend) que visitan automáticamente el perfil de cada empresa para recopilar datos específicos mediante rutas XPATH.
-- Data Cleaning & Filtering: Procesamiento de fechas y formatos numéricos para normalizar la información y descartar empresas que no cumplen con los estándares de inversión.
-- Ranking Logic: Aplicación de filtros lógicos sobre el DataFrame final para obtener una selección refinada de las 67 empresas más sólidas y, finalmente, las 10 mejores.
+- Data Acquisition: Using Selenium to extract an initial list of 481 companies with high historical performance.
+- Automated Profiling: Creation of modular functions (get_EPS, get_PER, get_dividend) that automatically visit each company's profile to collect specific data via XPATH queries.
+- Data Cleaning & Filtering: Processing dates and numerical formats to normalize information and filter out companies that do not meet strict investment standards.
+- Ranking Logic: Applying logical filters on the final DataFrame to obtain a refined selection of the 67 strongest companies and, ultimately, the Top 10.
 
 ### -- Results --
-- Extracción exitosa de datos detallados de cientos de empresas en tiempo real.
-- Generación de un archivo top_10_invest_2024.csv listo para ser utilizado por analistas financieros o herramientas de visualización.
-- Reducción drástica del tiempo de investigación de mercado, transformando horas de búsqueda manual en un proceso automatizado de pocos minutos.
+- Successful real-time extraction of detailed financial data from hundreds of corporations.
+- Automated generation of a top_10_invest_2024.csv file, ready for financial analysts or visualization tools.
+- Drastic reduction in market research time, transforming hours of manual searching into a few minutes of automated execution.
